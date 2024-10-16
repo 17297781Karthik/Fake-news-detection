@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import joblib
 import re
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -52,6 +53,7 @@ X = vectorizer.transform(X)
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
 
 # Training the model
+print(X_train[0])
 model = LogisticRegression()
 model.fit(X_train, Y_train)
 
@@ -87,3 +89,8 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.legend()
 plt.show()
+
+joblib.dump(model, 'logistic_regression_model.pkl')
+
+# Save the TF-IDF vectorizer to a file
+joblib.dump(vectorizer, 'tfidf_vectorizer.pkl')

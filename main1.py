@@ -22,8 +22,8 @@ print(news_dataset.head())
 print(news_dataset.isnull().sum())
 news_dataset = news_dataset.fillna('')
 
-# Merging author name and title
-news_dataset['content'] = news_dataset['author'] + ' ' + news_dataset['title']
+# Merging  text and title
+news_dataset['content'] = news_dataset['title'] + ' ' + news_dataset['text']
 X = news_dataset.drop(columns='label', axis=1)
 Y = news_dataset['label']
 

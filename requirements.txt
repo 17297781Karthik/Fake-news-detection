@@ -1,0 +1,1 @@
+fastapi==0.115.2uvicorn==0.32.0joblib==1.4.2nltk==3.9.1pandas==1.1.5scikit-learn==0.24.2numpy==1.19.5rematplotlib==3.4.3seaborn==0.11.2pydantic==1.8.2

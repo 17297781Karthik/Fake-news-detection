@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="645c87a3-f782-45f8-ac94-32ad0c556682" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidf_vectorizer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf_vectorizer.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +15,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Dockerfile" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -39,7 +51,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.App/Dockerfile.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
     "Python.Testing.executor": "Run",
+    "Python.app.executor": "Run",
     "Python.flower_client.executor": "Run",
     "Python.flower_server.executor": "Run",
     "Python.main1.executor": "Run",
@@ -48,15 +64,50 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/karthik cse/OneDrive/Desktop/SWEBDEVV/D2D/SpringBoot/Fake-News-Detection/App/models",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.stickyLines",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik cse\OneDrive\Desktop\SWEBDEVV\D2D\SpringBoot\Fake-News-Detection\App\models" />
+      <recent name="C:\Users\karthik cse\OneDrive\Desktop\SWEBDEVV\D2D\SpringBoot\Fake-News-Detection\App\templates" />
+      <recent name="C:\Users\karthik cse\OneDrive\Desktop\SWEBDEVV\D2D\SpringBoot\Fake-News-Detection\App" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik cse\OneDrive\Desktop\SWEBDEVV\D2D\SpringBoot\Fake-News-Detection" />
+      <recent name="C:\Users\karthik cse\OneDrive\Desktop\SWEBDEVV\D2D\SpringBoot\Fake-News-Detection\App" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.App/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +128,16 @@
       <workItem from="1728892099691" duration="2159000" />
       <workItem from="1729018651812" duration="444000" />
       <workItem from="1729105042924" duration="2551000" />
-      <workItem from="1729170730559" duration="1126000" />
+      <workItem from="1729170730559" duration="8151000" />
+      <workItem from="1729268088181" duration="2796000" />
+      <workItem from="1729352586948" duration="1243000" />
+      <workItem from="1729360802049" duration="519000" />
+      <workItem from="1729425412769" duration="7534000" />
+      <workItem from="1729433704288" duration="335000" />
+      <workItem from="1729447076248" duration="2967000" />
+      <workItem from="1729450147716" duration="685000" />
+      <workItem from="1729497952130" duration="44000" />
+      <workItem from="1729515531144" duration="1546000" />
     </task>
     <servers />
   </component>
@@ -89,10 +149,11 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Fake_News_Detection$predict.coverage" NAME="predict Coverage Results" MODIFIED="1729171160476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fake_News_Detection$app.coverage" NAME="app Coverage Results" MODIFIED="1729430894644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App" />
+    <SUITE FILE_PATH="coverage/Fake_News_Detection$predict.coverage" NAME="predict Coverage Results" MODIFIED="1729192417005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fake_News_Detection$flower_client.coverage" NAME="flower_client Coverage Results" MODIFIED="1728712635817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fake_News_Detection$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1729170794112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fake_News_Detection$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1729187605543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fake_News_Detection$flower_server.coverage" NAME="flower_server Coverage Results" MODIFIED="1728711339036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fake_News_Detection$Testing.coverage" NAME="Testing Coverage Results" MODIFIED="1729171522272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fake_News_Detection$Testing.coverage" NAME="Testing Coverage Results" MODIFIED="1729187516294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

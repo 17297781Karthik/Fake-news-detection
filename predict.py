@@ -17,8 +17,8 @@ def load_model_and_vectorizer(model_path, vectorizer_path):
     return model, vectorizer
 
 # Usage
-model_path = 'logistic_regression_model.pkl'
-vectorizer_path = 'tfidf_vectorizer.pkl'
+model_path = 'models/logistic_regression_model.pkl'
+vectorizer_path = 'models/tfidf_vectorizer.pkl'
 model, vectorizer = load_model_and_vectorizer(model_path, vectorizer_path)
 
 
